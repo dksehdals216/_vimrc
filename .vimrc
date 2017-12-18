@@ -62,5 +62,6 @@ vnoremap <F1> <ESC>
 nnoremap ; : "makes ; do the same thing as :"
 au FocusLost * :wa
 
-
+syntax on
+colorscheme monokai
 
