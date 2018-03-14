@@ -11,11 +11,12 @@
 $
 
 # Command Line History (newest to oldest):
-: ;;;;q
 :wq
-: "makes ; do the same thing as :"q
+: "makes ; do the same thing as :"wq
 :q
 : "makes ; do the same thing as :":q
+: "makes ; do the same thing as :"q
+: ;;;;q
 : "makes ; do the same thing as :; Q
 : "makes ; do the same thing as :"q!
 
@@ -29,55 +30,146 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+"0	CHAR	0
 	:"
+""1	LINE	0
+	>>>>>>> 271407ed5cafae97aa9f578acbbcfc523994531f
+"2	LINE	0
+	colorscheme molokai
+"3	LINE	0
+	syntax on
+"4	LINE	0
+	
+"5	LINE	0
+	au FocusLost * :wa
+"6	LINE	0
+	=======
+"7	LINE	0
+	<<<<<<< HEAD
+"8	LINE	0
+	nnoremap ; : "makes ; do the same thing as :"
+"-	CHAR	0
+	monokai
 
 # File marks:
 '0  1  0  ~/.vimrc
-'1  61  0  ~/.vimrc
-'2  8  0  ~/
+'1  62  0  ~/.vimrc
+'2  67  18  ~/.vimrc
+'3  58  0  ~/.vim/colors/molokai.vim
+'4  8  0  ~/.vim
+'5  61  0  ~/.vimrc
+'6  8  0  ~/
 
 # Jumplist (newest first):
 -'  1  0  ~/.vimrc
+-'  62  0  ~/.vimrc
+-'  67  18  ~/.vimrc
+-'  58  0  ~/.vim/colors/molokai.vim
+-'  1  0  ~/.vim/colors/molokai.vim
+-'  8  0  ~/.vim
 -'  61  0  ~/.vimrc
 -'  8  0  ~/
--'  8  0  ~/.vim
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
 -'  8  0  ~/
 -'  8  0  ~/.vim
 -'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  8  0  ~/
+-'  58  0  ~/.vim/colors/molokai.vim
+-'  1  0  ~/.vim/colors/molokai.vim
 -'  8  0  ~/.vim
 -'  8  0  ~/
--'  8  0  ~/.vim
 -'  8  0  ~/
--'  8  0  ~/.vim
 -'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
--'  8  0  ~/
--'  8  0  ~/.vim
+-'  63  0  ~/.vimrc
+-'  1  0  ~/.vimrc
 
 # History of marks within files (newest to oldest):
 
 > ~/.vimrc
 	"	1	0
-	^	62	12
-	.	62	11
-	+	66	18
+	.	67	0
+	+	65	18
 	+	62	11
+	+	67	18
+	+	67	0
+	+	62	0
+	+	67	0
+
+> ~/.vim/colors/molokai.vim
+	"	58	0
