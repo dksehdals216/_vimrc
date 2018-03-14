@@ -59,9 +59,17 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
+<<<<<<< HEAD
 nnoremap ; : 
 au FocusLost * :wa
 
 syntax on
 colorscheme molokai
+=======
+nnoremap ; : "makes ; do the same thing as :"
+au FocusLost * :wa
+
+syntax on
+colorscheme monokai
+>>>>>>> 271407ed5cafae97aa9f578acbbcfc523994531f
 
