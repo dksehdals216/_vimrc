@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/seaghost/.vim'
 let g:netrw_dirhist_2='/home/seaghost'
 let g:netrw_dirhist_3='/home/seaghost/.vim'
+let g:netrw_dirhist_4='/etc/apt/sources.list.d'
+let g:netrw_dirhist_5='/home/dm-ubuntu/Documents/dksehdals216.github.io/_includes'
+let g:netrw_dirhist_6='/home/dm-ubuntu/Documents/tmux_cmds'
+let g:netrw_dirhist_7='/home/dm-ubuntu/Documents/tetris_pyg/.git'
+let g:netrw_dirhist_8='/home/dm-ubuntu/.vim/ftplugin'

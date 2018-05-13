@@ -21,7 +21,7 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus =2
-set relativenumber
+set number
 
 set undofile "creates <filename>.un~ undo information"
 
@@ -44,6 +44,8 @@ set colorcolumn=85
 set list 
 set listchars=tab:▸\ ,eol:¬
 
+filetype plugin indent on
+
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -64,4 +66,5 @@ au FocusLost * :wa
 
 syntax on
 colorscheme molokai
+
 
