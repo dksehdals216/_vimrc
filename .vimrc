@@ -5,8 +5,7 @@ set nocompatible "removes vi compatbility"
 set tabstop =4
 set shiftwidth =4
 set softtabstop =4
-set expandtab
-
+	
 
 set encoding =utf-8
 set autoindent
@@ -19,6 +18,7 @@ set visualbell
 set cursorline
 set ttyfast
 set ruler
+
 set backspace=indent,eol,start
 set laststatus =2
 set number
