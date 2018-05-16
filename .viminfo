@@ -11,20 +11,26 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/DFS
+~MSle0~/\vexpand
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1526206011,,"wq"
 :q
-|2,0,1526205941,,"q"
+|2,0,1526379977,,"q"
+:w
+|2,0,1526379968,,"w"
+:echo has('python') || ('python3')
+|2,0,1526379944,,"echo has('python') || ('python3')"
+:wq
+|2,0,1526379901,,"wq"
+:version
+|2,0,1526379897,,"version"
+: q
+|2,0,1526206453,," q"
 :set tabstop=4
 |2,0,1526205917,,"set tabstop=4"
-:w
-|2,0,1526205733,,"w"
 :so %
 |2,0,1526205205,,"so %"
 :tabn
@@ -45,8 +51,6 @@ $
 |2,0,1526188454,,"split main.py"
 : w
 |2,0,1524805446,," w"
-: q
-|2,0,1524797318,," q"
 ://archive.canonical.com/ubuntu yakkety partner
 |2,0,1524197837,,"//archive.canonical.com/ubuntu yakkety partner"
 : q!
@@ -67,6 +71,8 @@ $
 |2,0,0,," \"makes ; do the same thing as :\"q!"
 
 # Search String History (newest to oldest):
+?/\vexpand
+|2,1,1526379498,47,"\\vexpand"
 ? @$
 |2,1,1526205350,,"@$"
 ?/DFS
@@ -91,278 +97,298 @@ $
 	setlocal smarttab
 |3,0,0,1,1,0,1526205350,"setlocal smarttab"
 ""1	LINE	0
-	setlocal autoindent
-|3,1,1,1,1,0,1526205936,"setlocal autoindent"
+	"set tab settings"
+|3,1,1,1,1,0,1526379596,"\"set tab settings\""
 "2	LINE	0
-	setlocal expandtab
-|3,0,2,1,1,0,1526205933,"setlocal expandtab"
+	setlocal autoindent
+|3,0,2,1,1,0,1526205936,"setlocal autoindent"
 "3	LINE	0
-	set expandtab
-|3,0,3,1,1,0,1526205921,"set expandtab"
+	setlocal expandtab
+|3,0,3,1,1,0,1526205933,"setlocal expandtab"
 "4	LINE	0
-	setlocal smarttab
-|3,0,4,1,1,0,1526205133,"setlocal smarttab"
+	set expandtab
+|3,0,4,1,1,0,1526205921,"set expandtab"
 "5	LINE	0
-		matrix_tetris[1][1] = 1
-|3,0,5,1,1,0,1526204204,"	matrix_tetris[1][1] = 1"
+	setlocal smarttab
+|3,0,5,1,1,0,1526205133,"setlocal smarttab"
 "6	LINE	0
-		matrix_tetris[0][0] = 1 
-|3,0,6,1,1,0,1526204203,"	matrix_tetris[0][0] = 1 "
+		matrix_tetris[1][1] = 1
+|3,0,6,1,1,0,1526204204,"	matrix_tetris[1][1] = 1"
 "7	LINE	0
-	import block_sh
-|3,0,7,1,1,0,1526204054,"import block_sh"
+		matrix_tetris[0][0] = 1 
+|3,0,7,1,1,0,1526204203,"	matrix_tetris[0][0] = 1 "
 "8	LINE	0
-	   print("a") 
-|3,0,8,1,1,0,1526194453,"   print(\"a\") "
+	import block_sh
+|3,0,8,1,1,0,1526204054,"import block_sh"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1526194453,""
+	   print("a") 
+|3,0,9,1,1,0,1526194453,"   print(\"a\") "
 "-	CHAR	0
-	4
-|3,0,36,0,1,0,1526205389,"4"
+	0
+|3,0,36,0,1,0,1526206586,"0"
 
 # File marks:
-'0  59  4  ~/Documents/tetris_pyg/main.py
-|4,48,59,4,1526206011,"~/Documents/tetris_pyg/main.py"
-'1  7  17  ~/.vimrc
-|4,49,7,17,1526206001,"~/.vimrc"
-'2  6  0  ~/.vim/ftplugin/python.vim
-|4,50,6,0,1526205962,"~/.vim/ftplugin/python.vim"
-'3  53  0  ~/Documents/tetris_pyg/main.py
-|4,51,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
-'4  53  0  ~/Documents/tetris_pyg/main.py
-|4,52,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
-'5  4  0  ~/.vim/ftplugin/python.vim
-|4,53,4,0,1526205938,"~/.vim/ftplugin/python.vim"
-'6  4  0  ~/.vim/ftplugin/python.vim
-|4,54,4,0,1526205938,"~/.vim/ftplugin/python.vim"
-'7  7  0  ~/.vimrc
-|4,55,7,0,1526205926,"~/.vimrc"
-'8  81  0  ~/Documents/tetris_pyg/main.py
-|4,56,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
-'9  81  0  ~/Documents/tetris_pyg/main.py
-|4,57,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
+'0  15  45  ~/.vimrc
+|4,48,15,45,1526379901,"~/.vimrc"
+'1  75  0  ~/Documents/tetris_pyg/main.py
+|4,49,75,0,1526379713,"~/Documents/tetris_pyg/main.py"
+'2  68  0  ~/Documents/tetris_pyg/main.py
+|4,50,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+'3  68  0  ~/Documents/tetris_pyg/main.py
+|4,51,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+'4  11  0  ~/.vimrc
+|4,52,11,0,1526379504,"~/.vimrc"
+'5  10  0  ~/.vimrc
+|4,53,10,0,1526379504,"~/.vimrc"
+'6  11  0  ~/Documents/dksehdals216.github.io/about.md
+|4,54,11,0,1526263070,"~/Documents/dksehdals216.github.io/about.md"
+'7  4  12  ~/Documents/tetris_pyg/.gitignore
+|4,55,4,12,1526207045,"~/Documents/tetris_pyg/.gitignore"
+'8  12  8  ~/Documents/tetris_pyg/.gitignore
+|4,56,12,8,1526206990,"~/Documents/tetris_pyg/.gitignore"
+'9  11  8  ~/Documents/tetris_pyg/.gitignore
+|4,57,11,8,1526206990,"~/Documents/tetris_pyg/.gitignore"
 
 # Jumplist (newest first):
--'  59  4  ~/Documents/tetris_pyg/main.py
-|4,39,59,4,1526206011,"~/Documents/tetris_pyg/main.py"
--'  7  17  ~/.vimrc
-|4,39,7,17,1526206001,"~/.vimrc"
+-'  15  45  ~/.vimrc
+|4,39,15,45,1526379901,"~/.vimrc"
+-'  15  45  ~/.vimrc
+|4,39,15,45,1526379901,"~/.vimrc"
+-'  15  45  ~/.vimrc
+|4,39,15,45,1526379901,"~/.vimrc"
+-'  15  45  ~/.vimrc
+|4,39,15,45,1526379901,"~/.vimrc"
+-'  75  0  ~/Documents/tetris_pyg/main.py
+|4,39,75,0,1526379713,"~/Documents/tetris_pyg/main.py"
+-'  75  0  ~/Documents/tetris_pyg/main.py
+|4,39,75,0,1526379713,"~/Documents/tetris_pyg/main.py"
+-'  75  0  ~/Documents/tetris_pyg/main.py
+|4,39,75,0,1526379713,"~/Documents/tetris_pyg/main.py"
+-'  75  0  ~/Documents/tetris_pyg/main.py
+|4,39,75,0,1526379713,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379703,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379703,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379703,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379703,"~/Documents/tetris_pyg/main.py"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205966,"~/.vimrc"
--'  6  0  ~/.vim/ftplugin/python.vim
-|4,39,6,0,1526205962,"~/.vim/ftplugin/python.vim"
--'  6  0  ~/.vim/ftplugin/python.vim
-|4,39,6,0,1526205962,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/.vim/ftplugin/python.vim
-|4,39,1,0,1526205954,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/.vim/ftplugin/python.vim
-|4,39,1,0,1526205954,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205943,"~/Documents/tetris_pyg/main.py"
--'  53  0  ~/Documents/tetris_pyg/main.py
-|4,39,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
--'  53  0  ~/Documents/tetris_pyg/main.py
-|4,39,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
--'  53  0  ~/Documents/tetris_pyg/main.py
-|4,39,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
--'  53  0  ~/Documents/tetris_pyg/main.py
-|4,39,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
--'  53  0  ~/Documents/tetris_pyg/main.py
-|4,39,53,0,1526205941,"~/Documents/tetris_pyg/main.py"
--'  4  0  ~/.vim/ftplugin/python.vim
-|4,39,4,0,1526205938,"~/.vim/ftplugin/python.vim"
--'  4  0  ~/.vim/ftplugin/python.vim
-|4,39,4,0,1526205938,"~/.vim/ftplugin/python.vim"
--'  4  0  ~/.vim/ftplugin/python.vim
-|4,39,4,0,1526205938,"~/.vim/ftplugin/python.vim"
--'  4  0  ~/.vim/ftplugin/python.vim
-|4,39,4,0,1526205938,"~/.vim/ftplugin/python.vim"
--'  4  0  ~/.vim/ftplugin/python.vim
-|4,39,4,0,1526205938,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/.vim/ftplugin/python.vim
-|4,39,1,0,1526205932,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/.vim/ftplugin/python.vim
-|4,39,1,0,1526205932,"~/.vim/ftplugin/python.vim"
--'  1  0  ~/.vim/ftplugin/python.vim
-|4,39,1,0,1526205932,"~/.vim/ftplugin/python.vim"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
--'  7  0  ~/.vimrc
-|4,39,7,0,1526205926,"~/.vimrc"
+|4,39,1,0,1526379591,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
+|4,39,1,0,1526379591,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
+|4,39,1,0,1526379591,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
+|4,39,1,0,1526379591,"~/.vimrc"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  68  0  ~/Documents/tetris_pyg/main.py
+|4,39,68,0,1526379546,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  1  0  ~/Documents/tetris_pyg/main.py
+|4,39,1,0,1526379527,"~/Documents/tetris_pyg/main.py"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  11  0  ~/.vimrc
+|4,39,11,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  0  ~/.vimrc
+|4,39,10,0,1526379504,"~/.vimrc"
+-'  10  4  ~/.vimrc
+|4,39,10,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  10  4  ~/.vimrc
+|4,39,10,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  10  4  ~/.vimrc
+|4,39,10,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  10  4  ~/.vimrc
+|4,39,10,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  9  4  ~/.vimrc
+|4,39,9,4,1526379499,"~/.vimrc"
+-'  55  11  ~/.vimrc
+|4,39,55,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  55  11  ~/.vimrc
+|4,39,55,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  55  11  ~/.vimrc
+|4,39,55,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  55  11  ~/.vimrc
+|4,39,55,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
+-'  52  11  ~/.vimrc
+|4,39,52,11,1526379498,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
+|4,39,1,0,1526379452,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
+|4,39,1,0,1526379452,"~/.vimrc"
 -'  1  0  ~/.vimrc
-|4,39,1,0,1526205858,"~/.vimrc"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205815,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205815,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205815,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205815,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  81  0  ~/Documents/tetris_pyg/main.py
-|4,39,81,0,1526205784,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  1  0  ~/Documents/tetris_pyg/main.py
-|4,39,1,0,1526205424,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
--'  54  1  ~/Documents/tetris_pyg/main.py
-|4,39,54,1,1526205422,"~/Documents/tetris_pyg/main.py"
+|4,39,1,0,1526379452,"~/.vimrc"
 
 # History of marks within files (newest to oldest):
 
+> ~/.vimrc
+	*	1526379900	0
+	"	15	45
+	^	15	46
+	.	15	45
+	+	73	18
+	+	70	11
+	+	75	18
+	+	75	0
+	+	70	0
+	+	75	0
+	+	31	0
+	+	30	9
+	+	76	0
+	+	53	24
+	+	12	19
+	+	27	0
+	+	12	22
+	+	12	19
+	+	13	0
+	+	16	12
+	+	22	12
+	+	6	0
+	+	5	25
+	+	4	28
+	+	15	45
+
 > ~/Documents/tetris_pyg/main.py
-	*	1526206010	0
-	"	59	4
-	^	59	5
-	.	59	5
-	+	91	28
-	+	92	3
-	+	91	21
-	+	58	5
-	+	59	5
+	*	1526379712	0
+	"	75	0
+	^	68	0
+	.	68	0
 	+	60	5
 	+	70	9
 	+	71	9
 	+	72	9
-	+	78	41
-	+	81	4
+	+	81	41
+	+	84	4
 	+	55	0
 	+	56	0
 	+	55	17
@@ -377,18 +403,18 @@ $
 	+	8	2
 	+	68	0
 	+	68	13
-	+	76	22
-	+	80	12
-	+	78	27
-	+	76	24
-	+	80	0
-	+	77	24
+	+	79	22
+	+	83	12
+	+	81	27
+	+	79	24
+	+	83	0
+	+	80	24
 	+	52	0
 	+	52	65
-	+	76	22
-	+	76	13
+	+	79	22
+	+	79	13
 	+	52	41
-	+	76	15
+	+	79	15
 	+	52	16
 	+	53	0
 	+	53	18
@@ -396,28 +422,28 @@ $
 	+	59	23
 	+	53	28
 	+	53	2
-	+	76	0
-	+	76	28
-	+	76	0
-	+	76	24
-	+	76	18
+	+	79	0
+	+	79	28
+	+	79	0
+	+	79	24
+	+	79	18
 	+	52	0
 	+	51	52
 	+	68	0
 	+	56	0
 	+	53	0
 	+	27	0
-	+	76	0
+	+	79	0
 	+	16	0
 	+	15	27
-	+	75	15
-	+	75	0
-	+	75	10
-	+	76	0
+	+	78	15
+	+	78	0
+	+	78	10
+	+	79	0
 	+	67	46
-	+	75	0
-	+	74	35
-	+	74	7
+	+	78	0
+	+	77	35
+	+	77	7
 	+	40	7
 	+	41	7
 	+	42	51
@@ -433,47 +459,62 @@ $
 	+	70	3
 	+	71	1
 	+	72	4
-	+	74	3
-	+	76	3
 	+	77	3
 	+	79	3
 	+	80	3
+	+	82	3
+	+	83	3
 	+	59	5
-
-> ~/.vimrc
-	*	1526205999	0
-	"	7	17
-	^	8	1
-	.	8	3
-	+	67	18
-	+	64	11
-	+	69	18
-	+	69	0
-	+	64	0
-	+	69	0
-	+	25	0
-	+	24	9
-	+	70	0
-	+	47	24
 	+	8	0
-	+	21	0
-	+	8	3
+	+	54	3
+	+	58	3
+	+	59	7
+	+	60	11
+	+	61	15
+	+	70	3
+	+	71	7
+	+	72	11
+	+	77	3
+	+	79	3
+	+	80	3
+	+	86	15
+	+	85	15
+	+	77	32
+	+	73	40
+	+	75	0
+	+	68	0
 
-> ~/.vim/ftplugin/python.vim
-	*	1526205961	0
-	"	6	0
-	^	6	0
-	.	6	0
-	+	6	0
-	+	5	21
-	+	9	10
-	+	6	0
+> ~/Documents/dksehdals216.github.io/about.md
+	*	1526263065	0
+	"	11	0
+	^	14	85
+	.	14	84
+	+	11	0
+	+	13	0
+	+	11	0
+	+	12	114
+	+	12	0
+	+	12	114
+	+	14	84
+
+> ~/Documents/tetris_pyg/.gitignore
+	*	1526207043	0
+	"	4	12
+	^	4	13
+	.	4	12
+	+	1	0
+	+	9	5
+	+	10	5
+	+	13	9
+	+	16	0
+	+	12	8
+	+	4	12
 
 > ~/Documents/tetris_pyg/block_sh.py
-	*	1526204687	0
-	"	138	0
-	^	8	16
-	.	8	15
+	*	1526206521	0
+	"	1	0
+	^	128	22
+	.	128	21
 	+	46	12
 	+	47	0
 	+	51	11
@@ -512,16 +553,35 @@ $
 	+	123	0
 	+	7	10
 	+	8	15
+	+	52	8
+	+	56	8
+	+	60	8
+	+	64	8
+	+	88	8
+	+	92	8
+	+	96	8
+	+	99	12
+	+	105	8
+	+	109	9
+	+	113	8
+	+	117	8
+	+	122	21
+	+	125	15
+	+	128	21
 
-> ~/Documents/tetris_pyg/.gitignore
-	*	1526194104	0
-	"	10	9
-	^	10	10
-	.	10	9
-	+	1	0
-	+	8	5
-	+	9	5
-	+	10	9
+> ~/Documents/tetris_pyg/sh
+	*	1526206453	0
+	"	1	0
+
+> ~/.vim/ftplugin/python.vim
+	*	1526205961	0
+	"	6	0
+	^	6	0
+	.	6	0
+	+	6	0
+	+	5	21
+	+	9	10
+	+	6	0
 
 > ~/Documents/GIT_cmd.md
 	*	1526194074	0
@@ -751,19 +811,6 @@ $
 	+	51	0
 	+	54	0
 	+	53	21
-
-> ~/Documents/dksehdals216.github.io/about.md
-	*	1523794831	0
-	"	14	84
-	^	14	85
-	.	14	84
-	+	11	0
-	+	13	0
-	+	11	0
-	+	12	114
-	+	12	0
-	+	12	114
-	+	14	84
 
 > ~/Documents/dksehdals216.github.io/_posts/2018-04-03-Iris-AI-#02.md
 	*	1523771698	0

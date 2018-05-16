@@ -1,19 +1,25 @@
 set modelines =0 "security exploit prevention"
 set nocompatible "removes vi compatbility"
 
-"set tab settings"
+"PEP8 indentation for python"
+au BufNewFile,BufRead *.py
 set tabstop =4
 set shiftwidth =4
 set softtabstop =4
-	
+set textwidth=79
+set expandtab
+set autoindent
+set fileformat=unix	
 
-set encoding =utf-8
+"Flag Unnecessary Whitespace"
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.cpp match badWhitespace /\s\+$/
+set encoding=utf-8
 set autoindent
 set showmode
 set showcmd
 ret hidden
 set wildmenu
-set wildmode =list:longest
+set wildmode=list:longest
 set visualbell
 set cursorline
 set ttyfast
