@@ -1,6 +1,11 @@
 set modelines =0 "security exploit prevention"
 set nocompatible "removes vi compatbility"
 
+"256 color support"
+if $COLORTERM == 'gnome-terminal'
+  set t_Co=256
+endif
+
 "PEP8 indentation for python"
 au BufNewFile,BufRead *.py
 set tabstop =4
