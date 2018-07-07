@@ -17,7 +17,7 @@ set autoindent
 set fileformat=unix	
 
 "Flag Unnecessary Whitespace"
-au BufRead,BufNewFile *.py,*.pyw,*.c,*.h,*.cpp match badWhitespace /\s\+$/
+au BufRead,BufNewFile *.c,*.h,*.cpp match badWhitespace /\s\+$/
 set encoding=utf-8
 set autoindent
 set showmode
@@ -53,7 +53,7 @@ set formatoptions=qrn1
 set colorcolumn=85
 
 set list 
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:»\ ,extends:›,precedes:‹,nbsp:·,trail:·
 
 filetype plugin indent on
 
