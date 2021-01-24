@@ -22,7 +22,6 @@ set encoding=utf-8
 set autoindent
 set showmode
 set showcmd
-ret hidden
 set wildmenu
 set wildmode=list:longest
 set visualbell
